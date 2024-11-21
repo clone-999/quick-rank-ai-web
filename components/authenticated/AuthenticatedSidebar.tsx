@@ -17,7 +17,7 @@ const AuthenticatedSidebar = ({ children }: Props) => {
     const pathname = usePathname()
     const { user } = useUser();
     const { signOut } = useClerk();
-
+    
     const data = {
     
         navMain: [

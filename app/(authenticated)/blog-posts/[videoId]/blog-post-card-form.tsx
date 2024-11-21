@@ -14,7 +14,7 @@ export function BlogPostCardForm({
     return (
         <Card className={cn("mb-8 relative h-auto", className)}>
             <CardHeader>
-                <CardTitle>Video Blog Post {item}</CardTitle>
+                <CardTitle>Video Blog Post {item} </CardTitle>
             </CardHeader>
         </Card>
     )
